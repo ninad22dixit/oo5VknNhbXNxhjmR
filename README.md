@@ -88,33 +88,21 @@ Target:
 ## Project Workflow
 
 ```mermaid
-`flowchart TD     
-A[Raw Customer Marketing Data] --> B[Data Inspection & Cleaning]     
-
-B --> C[Exploratory Data Analysis]     
-
-C --> D[Class Imbalance Assessment]     
-
-D --> E[Feature Engineering]     
-
-E --> F[Encoding Categorical Variables]     
-
-E --> G[Transforming Skewed Numeric Features]     
-
-F --> H[Train-Test Split]     
-
-G --> H     
-
-H --> I[SMOTE on Training Data]     
-
-I --> J[Random Forest Classifier]     
-
-J --> K[Prediction & Probability Scoring]     
-
-K --> L[Feature Importance Analysis]     
-
-L --> M[Business Recommendations & Customer Prioritization]`  
-```
+flowchart TD
+    A[Raw Customer Marketing Data] --> B[Data Inspection & Cleaning]
+    B --> C[Exploratory Data Analysis]
+    C --> D[Class Imbalance Assessment]
+    D --> E[Feature Engineering]
+    E --> F[Encoding Categorical Variables]
+    E --> G[Transforming Skewed Numeric Features]
+    F --> H[Train-Test Split]
+    G --> H
+    H --> I[SMOTE on Training Data]
+    I --> J[Random Forest Classifier]
+    J --> K[Prediction & Probability Scoring]
+    K --> L[Feature Importance Analysis]
+    L --> M[Business Recommendations & Customer Prioritization]
+```  
 
 ---
 
